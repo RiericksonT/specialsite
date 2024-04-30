@@ -1,0 +1,86 @@
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  width: 100%;
+
+  .carousel {
+    width: 60vw; /* Alterado para ocupar toda a largura disponível */
+    height: 100vh; /* Altura do carrossel */
+ 
+    display: flex; /* Adicionado para usar flexbox */
+    justify-content: flex-start; /* Centraliza as cartas horizontalmente */
+    align-items: flex-end; /* Alinha as cartas ao fundo do carrossel */
+
+    .prevButton, .nextButton {
+      transform: translateY(-50%);
+      cursor: pointer;
+      font-size: 2rem;
+      color: #f0f0f0; /* Cor do botão */
+      background-color: #733E75; /* Cor de fundo do botão */
+      border: none;
+      border-radius: 50%; /* Formato circular */
+      width: 50px; /* Largura do botão */
+      height: 50px; /* Altura do botão */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin-right: 30%;
+  }
+}
+  
+  .card {
+    padding: 1rem;
+    position: absolute;
+    top: 100%;
+    transform-origin: bottom center;
+    background-color: #f0f0f0; /* Cor de fundo da carta */
+    width: 25vw; /* Largura da carta */
+    height: 60vh; /* Altura da carta */
+    border-radius: 10px; /* Arredondamento das bordas */
+    box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.1); /* Sombra para efeito visual */
+    transition: transform 0.3s ease-in-out; /* Efeito de transição */
+    
+    text-align: center;
+    
+    h3{
+        font-weight: bolder;
+    }
+
+    img {
+      width: 100%;
+      height: 95%; /* Altura máxima da imagem */
+      object-fit: cover;
+      border-radius: 10px; /* Arredondamento das bordas */
+    }
+  }
+  
+  .active {
+    z-index: 1; /* Coloca a carta ativa sobre as outras */
+  }
+
+  .texts{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+    h1{
+      font-size: 3.5rem;
+      font-weight: bolder;
+      color: #733E75;
+    }
+
+    p{
+      font-size: 2rem;
+      color: #733E75;
+    }
+  }
+  
+  /* Adicione mais estilos conforme necessário para mais cartas */
+  
+}

@@ -1,0 +1,60 @@
+.header{
+    background-color: #DCB4DE;
+    padding: 0.5rem;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    .logo{
+        max-width: 50px;
+        margin-left: 1rem;
+        
+        background-color: #733E75;
+        border-radius: 50%;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        
+        
+        .navList{
+            list-style: none;
+            padding: 0.5rem;
+            cursor: pointer;
+            transition: 0.3s;
+
+            display: flex;
+            align-items: center;
+
+
+            li {
+                display: inline;
+                text-align: center;
+                padding: 1rem;
+
+                height: 8vh;
+
+                cursor: auto;
+
+                &:not(:last-child){
+                    border-right: 1px solid #733E75;    
+                }
+
+                a{
+                    text-decoration: none;
+                    color: #733E75;
+                    font-size: 1.4rem;
+                    font-weight: bold;
+
+                    &:hover{
+                        color: #FF30FF;
+                    }
+                }
+            }
+        }
+    }
+}
