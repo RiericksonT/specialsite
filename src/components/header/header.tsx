@@ -22,7 +22,7 @@ function Header() {
             <a href="#letter">Some Text</a>
           </li>
           <li>
-            <a href="#">Playlist</a>
+            <a href="#sky">The sky</a>
           </li>
           <li>
             <a href="#">Our Future</a>

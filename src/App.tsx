@@ -2,6 +2,7 @@ import style from "./style/App.module.scss";
 import Header from "./components/header/header";
 import Intro from "./components/intro/intro";
 import Photos from "./components/photos/photos";
+import SkyView from "./components/sky/sky";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem
           ipsum dolor sit amet, consectetur adipiscing elit
         </p>
+      </div>
+      <div className={style.theSky} id="sky">
+        <SkyView />
       </div>
     </>
   );
