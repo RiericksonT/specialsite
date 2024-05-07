@@ -3,6 +3,7 @@ import Header from "./components/header/header";
 import Intro from "./components/intro/intro";
 import Photos from "./components/photos/photos";
 import SkyView from "./components/sky/sky";
+import Quiz from "./components/quiz/quiz";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
       </div>
       <div className={style.theSky} id="sky">
         <SkyView />
+      </div>
+      <div className={style.quiz} id="quiz">
+        <Quiz />
       </div>
     </>
   );

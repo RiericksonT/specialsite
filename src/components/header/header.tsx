@@ -25,7 +25,7 @@ function Header() {
             <a href="#sky">The sky</a>
           </li>
           <li>
-            <a href="#">Our Future</a>
+            <a href="#quiz">Quiz</a>
           </li>
         </ul>
       </nav>
