@@ -10,24 +10,24 @@ interface Pergunta {
 function Quiz() {
   const perguntas: Pergunta[] = [
     {
-      pergunta: "Qual é a capital da França?",
-      respostas: ["Paris", "Berlim", "Londres", "Madrid"],
+      pergunta: "Qual o nosso dia?",
+      respostas: ["14", "15", "16", "17"],
       respostaCerta: 0,
     },
     {
-      pergunta: "Qual é a capital da Alemanha?",
-      respostas: ["Paris", "Berlim", "Londres", "Madrid"],
+      pergunta: "O nome do nosso cachorro será?",
+      respostas: ["Rex", "Rakan", "Lulu", "Nunu"],
       respostaCerta: 1,
     },
     {
-      pergunta: "Qual é a capital da Inglaterra?",
-      respostas: ["Paris", "Berlim", "Londres", "Madrid"],
-      respostaCerta: 2,
+      pergunta: "Você é o amor da minha vida?",
+      respostas: ["Sim", "Obvio!"],
+      respostaCerta: 1,
     },
     {
-      pergunta: "Qual é a capital da Espanha?",
-      respostas: ["Paris", "Berlim", "Londres", "Madrid"],
-      respostaCerta: 3,
+      pergunta: "Você aceita casar comigo? (pedido não oficial :) )",
+      respostas: ["Sim", "Não"],
+      respostaCerta: 0,
     },
   ];
 
@@ -84,7 +84,7 @@ function Quiz() {
               ))}
             </ul>
           </div>
-        )) || <h1>Je t'aeme</h1>}
+        )) || <h1>Je t'aime</h1>}
       </div>
     </div>
   );

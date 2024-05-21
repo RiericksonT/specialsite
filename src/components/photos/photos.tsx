@@ -49,33 +49,28 @@ const Carousel = () => {
   const cards = [
     {
       index: 0,
-      image: "https://picsum.photos/200/300?random=0",
-      date: "14/02",
+      image: "/images/1.jpg",
+      date: "24/03",
     },
     {
       index: 1,
-      image: "https://picsum.photos/200/300?random=1",
-      date: "02/03",
+      image: "/images/2.jpg",
+      date: "25/03",
     },
     {
       index: 2,
-      image: "https://picsum.photos/200/300?random=2",
-      date: "28/03",
+      image: "/images/3.jpg",
+      date: "24/03",
     },
     {
       index: 3,
-      image: "https://picsum.photos/200/300?random=3",
-      date: "03/04",
+      image: "/images/4.jpg",
+      date: "21/04",
     },
     {
       index: 4,
-      image: "https://picsum.photos/200/300?random=4",
-      date: "22/04",
-    },
-    {
-      index: 5,
-      image: "https://picsum.photos/200/300?random=5",
-      date: "01/05",
+      image: "/images/5.jpg",
+      date: "17/02",
     },
   ]; // Gerar array de cartas (neste caso, 5 cartas)
 
@@ -98,11 +93,8 @@ const Carousel = () => {
           Próximo
         </button>
         <div className={style.texts}>
-          <h1>Lorem Ipsun</h1>
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit.
-          </h2>
+          <h1>Cada momento ao seu lado é único!</h1>
+          <h2>E eu quero passar muitos outros momentos ao seu lado. Te amo!</h2>
         </div>
       </div>
     </div>

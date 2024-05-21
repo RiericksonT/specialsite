@@ -4,13 +4,11 @@ function Intro() {
   return (
     <div className={styles.intro}>
       <div className={styles.introLeft}>
-        <h1 className={styles.title}>Welcome to the future</h1>
+        <h1 className={styles.title}>Feliz aniversário minha princesa!</h1>
         <p className={styles.text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-          Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
-          ut sem vitae risus tristique posuere.
+          Que seu dia seja repleto de alegrias, apesar de você estar na
+          faculdade, aproveita muito, pois você merece o melhor dia de todos. Te
+          amo muito! 22 aninhos tais ficando velha, hein?!
         </p>
       </div>
       <div className={styles.introRight}>
