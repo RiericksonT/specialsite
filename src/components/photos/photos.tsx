@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import style from "./style.module.scss"; // Estilos CSS do carrossel
 
 // Componente de cartas
@@ -49,27 +49,32 @@ const Carousel = () => {
   const cards = [
     {
       index: 0,
-      image: "/images/1.jpg",
+      image:
+        "https://github.com/RiericksonT/specialsite/assets/53712152/7fcfc612-1a64-475d-8cef-c5a879035af6",
       date: "24/03",
     },
     {
       index: 1,
-      image: "/images/2.jpg",
+      image:
+        "https://github.com/RiericksonT/specialsite/assets/53712152/054b87e7-1968-46d1-b949-519d99f96c47",
       date: "25/03",
     },
     {
       index: 2,
-      image: "/images/3.jpg",
+      image:
+        "https://github.com/RiericksonT/specialsite/assets/53712152/6c14fcb8-6ebe-49f0-a22b-38b7966359d0",
       date: "24/03",
     },
     {
       index: 3,
-      image: "/images/4.jpg",
+      image:
+        "https://github.com/RiericksonT/specialsite/assets/53712152/9848e5e8-9741-433a-940d-903086b23d5d",
       date: "21/04",
     },
     {
       index: 4,
-      image: "/images/5.jpg",
+      image:
+        "https://github.com/RiericksonT/specialsite/assets/53712152/4548db28-cc7d-46d0-8915-7951c303b54c",
       date: "17/02",
     },
   ]; // Gerar array de cartas (neste caso, 5 cartas)
