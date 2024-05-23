@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import style from "./style.module.scss"; // Estilos CSS do carrossel
 
 // Componente de cartas
