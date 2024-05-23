@@ -15,7 +15,7 @@ function Quiz() {
       respostaCerta: 0,
     },
     {
-      pergunta: "O nome do nosso cachorro será?",
+      pergunta: "O nome do nosso cachorro será...?",
       respostas: ["Rex", "Rakan", "Lulu", "Nunu"],
       respostaCerta: 1,
     },

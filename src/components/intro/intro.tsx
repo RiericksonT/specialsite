@@ -13,7 +13,7 @@ function Intro() {
       </div>
       <div className={styles.introRight}>
         <img
-          src="/images/body-img.png"
+          src="https://github.com/RiericksonT/specialsite/assets/53712152/b2da0996-2069-44ce-9534-19dd09b74e95"
           alt="Intro"
           className={styles.introImg}
         />
