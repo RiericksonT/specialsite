@@ -41,19 +41,23 @@
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
+        
 
         h1 {
             font-size: 3rem;
             color: #733E75;
             max-width: 50%;
+            max-height: 80%;
             font-weight: bolder;
         }
 
         p {
-            font-size: 2rem;
-            
+            font-size: 3vh;
             color: #FF30FF;
             max-width: 50%;
+            max-height: 80%;
+
+            overflow: hidden;
         }
     }
 
